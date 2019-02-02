@@ -38,9 +38,9 @@ namespace OktaExample
             .AddCookie()
             .AddOktaMvc(new OktaMvcOptions
             {
-                 OktaDomain = "https://dev-856278.okta.com",
-                 ClientId = "0oa9p4r358YSFHF8B356",
-                 ClientSecret = "KfY4NS9NT-3SagLkrsH57EiCeMKLrMz_GUDWlSwD"
+                 OktaDomain = "youroktadomain",
+                 ClientId = "yourclientid",
+                 ClientSecret = "yourclientsecret"
             });
 
             services.Configure<CookiePolicyOptions>(options =>
